@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>COURSES</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+    <div id="ex1" class="modal">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img class="logo" src="IMG/img4.png" width="40 px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link text-white font-weight-bolder " href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bolder" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-weight-bolder " href="contact.html">Contact</a>
+            </li>
+            
+             
+           
+          </ul>
+         
+        </div>
+      </nav>
+    <!-- <ul>
+        <li>
+            <a href=index.html>home</a>
+        </li>
+
+        <li>
+            <a href=courses.html>courses</a>
+
+        </li>
+
+        <li>
+            <a href=contact.html>contact</a>
+        </li>
+
+    </ul> -->
+    <div class="fond">
+        <h1>COURSES </h1>
+    </div>
+    </div>
+    <CENTER>
+        <br>
+       
+        <H3> Feedback</H3>
+        <form>
+            <button id="bolt" type="button"> B</button> <BUtton id="italic" type="button">I</BUtton> <BUtton id="und"
+                type="button">UNDERLINE</BUtton>
+
+            <select onchange="ali(this)">
+                <option value="20"> 20Px </option>
+                <option value="30"> 30Px </option>
+                <option value="40"> 40Px </option>
+
+            </select>
+            <select onchange="changefontfamily(this)">
+                <option value="arial"> arial </option>
+                <option value="verdana"> verdana</option>
+                <option value="Geneva"> Geneva</option>
+
+            </select>
+
+        </form>
+        <textarea id="txt"></textarea>
+    </CENTER>
+    <div >
+        <div class="row">
+
+            <div class=" img1 col-md-4 col-xs-12 " >  <img class="img2" src="IMG/1.jpeg" alt="" > <button class="inv"><a href="#ex1" rel="modal:open"> view more </a></button> </div>
+            <div class= " img1 col-md-4 col-xs-12  ">  <img class="img2" src="IMG/2.jpeg" alt=""> <button class="inv "> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class=" img1 col-md-4 col-xs-12 "> <img class="img2" src="IMG/3.jpeg" alt=""><button class="inv ">  <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+        </div>
+        <div class="row">
+
+            <div class=" img1 col-md-4 col-xs-12 " >  <img class="img2" src="IMG/4.jpeg" alt="" > <button class="inv"><a href="#ex1" rel="modal:open"> view more </a></button> </div>
+            <div class= " img1 col-md-4 col-xs-12  ">  <img class="img2" src="IMG/5.jpg" alt=""> <button class="inv "> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class=" img1 col-md-4 col-xs-12 "> <img class="img2" src="IMG/6.png" alt=""><button class="inv ">  <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+        </div>
+        <div class="row">
+
+            <div class=" img1 col-md-4 col-xs-12 " >  <img class="img2" src="IMG/7.jpg" alt="" > <button class="inv"><a href="#ex1" rel="modal:open"> view more </a></button> </div>
+            <div class= " img1 col-md-4 col-xs-12  ">  <img class="img2" src="IMG/8.png" alt=""> <button class="inv "> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class=" img1 col-md-4 col-xs-12 "> <img class="img2" src="IMG/9.png" alt=""><button class="inv ">  <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+        </div>
+        <!-- <div class=" row ">
+            <div class="img4 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class="img5 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class="img6 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+        </div>
+        <div class="rds row">
+            <div class="img7 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class="img8 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+            <div class="img9 col-md col-xs-12"> <button class=inv> <a href="#ex1" rel="modal:open"> view more </a> </button> </div>
+        </div> -->
+
+        <!-- class="IMAGE2" src="IMG/1.jpeg"> -->
+        <!-- <img class="IMAGE2" src="IMG/2.jpeg"> -->
+        <!-- <img class="IMAGE2" src="IMG/3.jpeg"> -->
+        <!-- <img class="IMAGE2" src="IMG/4.jpeg">
+            <img class="IMAGE2" src="IMG/5.jpg">
+            <img class="IMAGE2" src="IMG/6.png">
+            <img class="IMAGE2" src="IMG/7.jpg">
+            <img class="IMAGE2" src="IMG/8.png">
+            <img class="IMAGE2" src="IMG/9.png"> -->
+
+    </div>
+  
+</body>
+<script src="./js/main.js"></scripT>
+
+</html>

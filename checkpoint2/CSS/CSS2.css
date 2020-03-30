@@ -1,0 +1,31 @@
+.me{
+    text-align: left;
+    color: red;
+
+margin-top: 15px;
+ 
+ }
+ .tof{
+     widows: 150px; 
+
+     height: 150px;
+     
+     border-radius: 75px;
+     
+     margin-left: 500px;
+     margin-top: 0;
+ }
+ .KOL{
+     display:flex;
+     justify-content:space-between;
+     background-color: royalblue;
+ }
+ .exe{
+     
+ }
+ #txt{
+     max-width: "300"; max-height: "300";
+ }
+ html{
+    scroll-behavior: smooth;
+}
